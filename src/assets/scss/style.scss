@@ -1,0 +1,71 @@
+@import "../scss/utils/mixins";
+@import "../scss/utils/reset";
+@import "../scss/utils/variables";
+
+@import "../scss/modules/header.scss";
+@import "../scss/modules/main.scss";
+
+
+@media only screen and (max-width: 1443px){
+  main{
+    .title{
+      font-size: 120px !important;
+    }
+    .sub-title{
+      width: 90% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  nav>ul{
+    font-size: 1.4em !important;
+  }
+  main{
+    .title{
+      font-size: 100px !important;
+    }
+    .sub-title{
+      width: 90% !important;
+      font-size: 15px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  main{
+    .title{
+      font-size: 80px !important;
+      h1{
+        bottom: 15px !important;
+      }
+    }
+    .sub-title{
+      font-size: 12px !important;
+    }
+    .grid{
+      height: 80% !important;
+    }
+    .imgs{
+      grid-row: 3/span 6 !important;
+      .first-img{
+        height: 400px !important;
+      }
+    }
+    .imgs-2{
+      grid-row: 9/span 2 !important;
+      grid-column: 3/span 4 !important;
+    }
+    .imgs-3{
+      grid-row: 3/span 3 !important;
+      grid-column: 7/span 4 !important;
+      .third-img{
+        height: 200px !important;
+      }
+    }
+    .imgs-4{
+      grid-row: 6/span 5 !important;
+      grid-column: 7/span 4 !important;
+    }
+  }
+}

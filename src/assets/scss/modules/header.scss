@@ -1,0 +1,35 @@
+section {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    ul{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-family: $Poppins;
+      font-weight: bolder;
+      color: #fff;
+      font-size: 1.8em;
+      cursor: pointer;
+      .socials{
+        display: flex;
+      }
+      li{
+        padding: 0 20px 0 20px;
+        &:hover{
+          transition: .2s ease all;
+          color:#232123;
+        }
+      }
+    }
+  }
+}
