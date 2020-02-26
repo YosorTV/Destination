@@ -117,11 +117,11 @@
     top: 12%;
 
     .destionation{
-      grid-column: 2/span 2;
-      grid-row: 10/span 1;
+      grid-column: 3/span 3;
+      grid-row: 11/span 4;
       z-index: 1;
       font-family: $Oswald;
-      font-size: 30px;
+      font-size: 50px;
       color: white;
       letter-spacing: 1px;
       transform: scaleY(1.5) translateY(20px);
@@ -131,9 +131,9 @@
       -webkit-text-stroke: 1px #fff;
     }
     .imgs{
-      grid-column: 3/span 4;
+      grid-column: 4/span 4;
       grid-row: 3/span 8;
-      @include size($width: 100%, $height:0%);
+      @include size($width: 75%, $height:0%);
       overflow: hidden;
       position: relative;
       top: 100%;
@@ -142,14 +142,13 @@
       overflow: hidden;
       .first-img{
         height: 600px;
-        background: url(/assets/img/first.png) no-repeat;
         background-size: cover;
         background-position: center;
       }
     }
     .imgs-2{
       grid-column: 7/span 2;
-      grid-row: 3/span 5;
+      grid-row: 3/span 4;
       @include size($width: 100%, $height:0%);
       position: relative;
       top: 100%;
@@ -157,15 +156,14 @@
       transform: rotateX(180deg);
       overflow: hidden;
       .second-img{
-        height: 400px;
-        background: url(/assets/img/second.png) no-repeat;
+        height: 288px;
         background-size: cover;
         background-position: center;
       }
     }
     .imgs-3{
       grid-column: 7/span 2;
-      grid-row: 8/span 3;
+      grid-row: 7/span 4;
       @include size($width: 100%, $height:0%);
       position: relative;
       top: 100%;
@@ -173,8 +171,7 @@
       transform: rotateX(180deg);
       overflow: hidden;
       .third-img{
-        height: 300px;
-        background: url(/assets/img/third.png) no-repeat;
+        height: 290px;
         background-size: cover;
         background-position: center;
       }
@@ -190,7 +187,6 @@
       overflow: hidden;
       .fourth-img{
         height: 600px;
-        background: url(/assets/img/forth.png) no-repeat;
         background-size: cover;
         background-position: center;
       }
@@ -213,7 +209,6 @@
   top: 0;
   z-index: -2;
   position: fixed;
-  background: url(/assets/img/bg1.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
