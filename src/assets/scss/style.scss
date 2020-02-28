@@ -6,6 +6,33 @@
 @import "../scss/modules/main.scss";
 
 
+@media only screen and (max-width:1556px){
+  main{
+    .grid{
+      h1{
+        grid-column: 2/span 4 !important;
+        grid-row: 11/span 1 !important;
+      }
+      .imgs{
+        grid-column: 3/span 3 !important;
+        grid-row: 3/span 8 !important;
+      }
+      .imgs-2{
+        grid-column: 6/span 3 !important;
+        grid-row: 3/span 4 !important;
+      }
+      .imgs-3{
+        grid-column: 6/span 3 !important;
+        grid-row: 7/span 4 !important;
+      }
+      .imgs-4{
+        grid-column: 9/span 3 !important;
+        grid-row: 3/span 8 !important;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1443px){
   main{
     .title{
@@ -17,9 +44,36 @@
   }
 }
 
+@media only screen and (max-width:1280px){
+  main{
+    .grid{
+      h1{
+        grid-column: 2/span 4 !important;
+        grid-row: 11/span 1 !important;
+      }
+      .imgs{
+        grid-column: 3/span 3!important;
+        grid-row: 4/span 7!important;
+      }
+      .imgs-2{
+        grid-column: 6/span 3!important;
+        grid-row: 4/span 4!important;
+      }
+      .imgs-3{
+        grid-column: 6/span 3 !important;
+        grid-row: 8/span 3!important;
+      }
+      .imgs-4{
+        grid-column: 9/span 3 !important;
+        grid-row: 4/span 7!important;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1087px) {
   nav>ul{
-    font-size: 1.4em !important;
+    font-size: 2.2em !important;
   }
   main{
     .title{
@@ -32,40 +86,80 @@
   }
 }
 
+@media only screen and (max-width:1024px){
+  main{
+    .title{
+      font-size: 110px !important;
+      h1{
+        bottom: 20px !important;
+      }
+    }
+    .desc{
+      .sub-title{
+        width: 96%!important;
+        font-size: 24px!important
+      }
+    }
+    .grid{
+      height: 82% !important;
+      top: 24% !important;
+      h1{
+        grid-column: 5/span 5!important;
+        grid-row: 11/span 1!important;
+        text-align: center !important;
+      }
+      .imgs{
+        grid-column: 3/span 4!important;
+        grid-row: 2/span 6!important;
+      }
+      .imgs-2{
+        grid-column: 3/span 4!important;
+        grid-row: 8/span 3!important;
+      }
+      .imgs-3{
+        grid-column: 7/span 4!important;
+        grid-row: 8/span 3!important;
+      }
+      .imgs-4{
+        grid-column: 7/span 4!important;
+        grid-row: 2/span 6!important;
+      }
+    }
+    .bg-image{
+      height: 75% !important;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px){
   main{
     .title{
       font-size: 80px !important;
       h1{
-        bottom: 15px !important;
+        bottom: -20px !important;
       }
     }
-    .sub-title{
-      font-size: 12px !important;
+    .forest{
+      top: 59vh !important;
+    }
+    .desc{
+      .sub-title{
+        width: 92%!important;
+        font-size: 18px!important;
+      }
     }
     .grid{
-      height: 80% !important;
-    }
-    .imgs{
-      grid-row: 3/span 6 !important;
-      .first-img{
-        height: 400px !important;
+      height: 75%!important;
+      top: 28%!important;
+      h1{
+        grid-column: 5/span 5!important;
+        grid-row: 11/span 1!important;
+        text-align: center !important;
+        font-size: 35px !important;
       }
     }
-    .imgs-2{
-      grid-row: 9/span 2 !important;
-      grid-column: 3/span 4 !important;
-    }
-    .imgs-3{
-      grid-row: 3/span 3 !important;
-      grid-column: 7/span 4 !important;
-      .third-img{
-        height: 200px !important;
-      }
-    }
-    .imgs-4{
-      grid-row: 6/span 5 !important;
-      grid-column: 7/span 4 !important;
+    .bg-image{
+      height: 90% !important;
     }
   }
 }
