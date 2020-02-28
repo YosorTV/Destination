@@ -29,7 +29,7 @@ botNav.addEventListener('click', ()=> {
   const tl2 = new TimelineMax();
 
   tl2.set(grid, {display: 'grid'});
-  tl2.to('.forest img', 3, {y: -400, scale:1.1, ease:Expo.easeInOut});
+  tl2.to('.forest img', 3, {y: -400, scale:1.2, ease:Expo.easeInOut});
   tl2.to(bg, 3, {y: -600, ease:Expo.easeInOut},'-=3');
   tl2.to(subtitle, 3, {autoAlpha:0, y:-100, ease:Expo.easeInOut},'-=3');
   tl2.to(botNav, 3, {width: '0%', ease:Expo.easeInOut},'-=3');
