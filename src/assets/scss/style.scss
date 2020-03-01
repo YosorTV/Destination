@@ -317,13 +317,43 @@
 @media only screen and (max-width: 452px) {
   main {
     .grid {
-      height: 70% !important;
-      top: 20% !important;
+      height: 64%!important;
+      top: 26%!important;
 
       .destionation {
         grid-column: 3/span 8 !important;
         grid-row: 11/span 1 !important;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  main {
+    .title {
+      font-size: 75px !important;
+    }
+    .forest {
+      top: 60vh !important;
+    img{
+      height: 75%!important;
+    }
+  }
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  main {
+    .title {
+      font-size: 70px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  main {
+    .title {
+      font-size: 65px !important;
     }
   }
 }
